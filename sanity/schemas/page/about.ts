@@ -5,6 +5,11 @@ const about = defineType({
   type: 'document',
   fields: [
     defineField({
+      name: 'slogan',
+      type: 'text',
+      description: 'Shown on your homepage'
+    }),
+    defineField({
       name: 'bio',
       type: 'array',
       of: [{ type: 'description' }],

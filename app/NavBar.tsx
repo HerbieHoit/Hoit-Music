@@ -7,7 +7,6 @@ export default function NavBar({ title }: { title: string }) {
         {title}
       </Link>
       <div className='grow'></div>
-      <Link href='/work'>work</Link>
       <Link href='/about'>about</Link>
       <Link href='/blog'>blog</Link>
       <Link href='/events'>events</Link>

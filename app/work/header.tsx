@@ -18,7 +18,7 @@ export default function WorksHeader({
           <Link
             href={`/work/${service.slug}`}
             key={service._id}
-            className={`${selectedService === service.slug ? 'font-bold' : ''} font-heading`}>
+            className={`p-2 rounded ${selectedService === service.slug ? 'bg-accent text-bg' : ''} font-heading`}>
             {service.title}
           </Link>
         ))}

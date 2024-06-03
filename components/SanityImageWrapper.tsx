@@ -10,5 +10,13 @@ export default function SanityImageWrapper({
   id: string
   className?: string
 }) {
-  return <SanityImage id={id} className={className} baseUrl={BASE_URL_IMAGES} />
+  return (
+    <SanityImage
+      id={id}
+      className={className}
+      baseUrl={BASE_URL_IMAGES}
+      width={400}
+      height={600}
+    />
+  )
 }
